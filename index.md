@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Stitches - An HTML5 sprite sheet generator
+title: Stitches responsive - An HTML5 sprite sheet generator
 ---
 
-<link rel="stylesheet" href="/stitches/stitches/build/stitches/css/stitches-1.3.5.min.css">
+<link rel="stylesheet" href="/stitches/stitches/build/stitches/css/stitches-1.3.6.min.css">
 
 <section id="main" role="main">
 
@@ -23,9 +23,9 @@ Drag &amp; drop image files onto the space below, or use the &ldquo;Open&rdquo; 
 After dependencies, Stitches requires a stylesheet, a script, and an HTML element to get the job done:
 
 {% highlight html %}
-<link rel="stylesheet" href="css/stitches-1.3.5.min.css">
+<link rel="stylesheet" href="css/stitches-1.3.6.min.css">
 
-<script data-main="js/stitches.js" src="js/stitches-1.3.5.min.js"></script>
+<script data-main="js/stitches.js" src="js/stitches-1.3.6.min.js"></script>
 {% endhighlight %}
 
 The sprite sheet generator is automatically created in elements that have the stitches class:
@@ -70,7 +70,7 @@ Documentation is available **[here.](/stitches/stitches/doc/stitches.js.html)**
 ## Contributing
 
 * [Fork the project.](https://github.com/draeton/stitches)
-* Read through the [outstanding issues or report new ones.](https://github.com/draeton/stitches/issues)
+* Read through the [outstanding issues or report new ones.](https://github.com/markmoulard/responsive-stitches/issues)
 * Write some tests to make sure we don't accidentally break each other's code.
 * Send a pull request.
 
@@ -82,15 +82,15 @@ Documentation is available **[here.](/stitches/stitches/doc/stitches.js.html)**
 
 ## Download
 
-**The latest release, 1.3.5, is [available here](/stitches/stitches/dist/stitches-1.3.5.zip).**
+**The latest release, 1.3.6, is [available here](/stitches/stitches/dist/stitches-1.3.6.zip).**
 
-You can download this project in either [zip](https://github.com/draeton/stitches/zipball/master)
-or [tar](https://github.com/draeton/stitches/tarball/master) formats.
+You can download this project in either [zip](https://github.com/markmoulard/responsive-stitches/zipball/master)
+or [tar](https://github.com/markmoulard/responsive-stitches/tarball/master) formats.
 
 You can also clone the project with [Git](http://git-scm.com) by running:
 
-    $ git clone git://github.com/draeton/stitches
+    $ git clone git://github.com/markmoulard/responsive-stitches
 
 </section>
 
-<script data-main="js/stitches.js" src="/stitches/stitches/build/stitches/js/stitches-1.3.5.min.js"></script>
+<script data-main="js/stitches.js" src="/stitches/stitches/build/stitches/js/stitches-1.3.6.min.js"></script>
