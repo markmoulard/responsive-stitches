@@ -1,55 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Responsive-stitches by markmoulard</title>
-  </head>
+  <title>Responsive-stitches</title>
+  <meta name="description" content="HTML5 Sprite Sheet Generator">
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/markmoulard/responsive-stitches">View on GitHub</a>
-    <div class="shell">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Responsive-stitches</h1>
-            <h2>HTML5 Sprite Sheet Generator</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+</head>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/markmoulard/responsive-stitches/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/markmoulard/responsive-stitches/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+<body>
 
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <hr><p>layout: default</p>
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Responsive-stitches</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">HTML5 Sprite Sheet Generator</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/markmoulard/responsive-stitches/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/markmoulard/responsive-stitches/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/markmoulard/responsive-stitches" class="code">View Responsive-stitches on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <hr><p>layout: default</p>
 
 <h2>
-<a name="title-stitches---an-html5-sprite-sheet-generator" class="anchor" href="#title-stitches---an-html5-sprite-sheet-generator"><span class="octicon octicon-link"></span></a>title: Stitches - An HTML5 sprite sheet generator</h2>
+<a name="title-stitches-responsive---an-html5-sprite-sheet-generator" class="anchor" href="#title-stitches-responsive---an-html5-sprite-sheet-generator"><span class="octicon octicon-link"></span></a>title: Stitches responsive - An HTML5 sprite sheet generator</h2>
 
 <p></p>
 
@@ -58,7 +48,7 @@
 <p>Drag &amp; drop image files onto the space below, or use the “Open” link to load images using the file browser. Then, click “Generate” to create a sprite sheet and stylesheet. <em>This demo uses a couple of HTML5 APIs, and it is only compatible with modern browsers.</em></p>
 
 <div>
-    <img src="/stitches/stitches/build/stitches/img/test/github.png"><img src="/stitches/stitches/build/stitches/img/test/gmail.png"><img src="/stitches/stitches/build/stitches/img/test/linkedin.png"><img src="/stitches/stitches/build/stitches/img/test/stackoverflow.png"><img src="/stitches/stitches/build/stitches/img/test/tumblr.png"><img src="/stitches/stitches/build/stitches/img/test/twitter.png">
+    <img src="/responsive-stitches/stitches/build/stitches/img/test/github.png"><img src="/responsive-stitches/stitches/build/stitches/img/test/gmail.png"><img src="/responsive-stitches/stitches/build/stitches/img/test/linkedin.png"><img src="/responsive-stitches/stitches/build/stitches/img/test/stackoverflow.png"><img src="/responsive-stitches/stitches/build/stitches/img/test/tumblr.png"><img src="/responsive-stitches/stitches/build/stitches/img/test/twitter.png">
 </div>
 
 <h2>
@@ -109,7 +99,7 @@
 
 <ul>
 <li><a href="https://github.com/draeton/stitches">Fork the project.</a></li>
-<li>Read through the <a href="https://github.com/draeton/stitches/issues">outstanding issues or report new ones.</a>
+<li>Read through the <a href="https://github.com/markmoulard/responsive-stitches/issues">outstanding issues or report new ones.</a>
 </li>
 <li>Write some tests to make sure we don't accidentally break each other's code.</li>
 <li>Send a pull request.</li>
@@ -121,34 +111,38 @@
 <h2>
 <a name="download" class="anchor" href="#download"><span class="octicon octicon-link"></span></a>Download</h2>
 
-<p><strong>The latest release, @<a href="https://github.com/version" class="user-mention">@version</a>, is <a href="/stitches/stitches/dist/stitches-@@version.zip">available here</a>.</strong></p>
+<p><strong>The latest release, 1.3.6, is <a href="/stitches/stitches/dist/stitches-1.3.6.zip">available here</a>.</strong></p>
 
-<p>You can download this project in either <a href="https://github.com/draeton/stitches/zipball/master">zip</a>
-or <a href="https://github.com/draeton/stitches/tarball/master">tar</a> formats.</p>
+<p>You can download this project in either <a href="https://github.com/markmoulard/responsive-stitches/zipball/master">zip</a>
+or <a href="https://github.com/markmoulard/responsive-stitches/tarball/master">tar</a> formats.</p>
 
 <p>You can also clone the project with <a href="http://git-scm.com">Git</a> by running:</p>
 
-<pre><code>$ git clone git://github.com/draeton/stitches
+<pre><code>$ git clone git://github.com/markmoulard/responsive-stitches
 </code></pre>
 
 <p></p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/markmoulard">markmoulard</a> can be found on <a href="https://github.com/markmoulard/responsive-stitches">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
+        </article>
+      </div>
     </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/markmoulard" class="avatar"><img src="https://avatars0.githubusercontent.com/u/5254185?s=60" width="48" height="48"/></a> <a href="https://github.com/markmoulard">markmoulard</a> maintains <a href="https://github.com/markmoulard/responsive-stitches">Responsive-stitches</a></p>
 
-              <script type="text/javascript">
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/markmoulard/responsive-stitches/tarball/master" class="tar">tar</a><a href="https://github.com/markmoulard/responsive-stitches/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -159,5 +153,5 @@ or <a href="https://github.com/draeton/stitches/tarball/master">tar</a> formats.
             } catch(err) {}
           </script>
 
-  </body>
+</body>
 </html>
